@@ -1,0 +1,61 @@
+/***** ALL *****/
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+
+
+/***** GAME *****/
+.gameContainer{
+    border: 1px solid #000;
+    height: 900px;
+    width: 1900px;
+    position: relative;
+    overflow: hidden;
+}
+
+.playerOneBox{
+    width: 50px;
+    height: 50px;
+    background-color: #ff0000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.playerTwoBox{
+    width: 50px;
+    height: 50px;
+    background-color: #0000ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.randomGameBox{
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+/***** LOGIN *****/
+.form1{
+    display: block;
+}
+
+.form2{
+    display: none;
+}
+
+
+
+
+
+/********** MADE BY warezoid_ **********/
